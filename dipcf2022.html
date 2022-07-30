@@ -90,28 +90,21 @@
   </div>
                 
 
- <h2>Buscar con Google</h2>
-<form method="get" action="https://github.com/anprofor/cf2022/tree/gh-pages/dipcf2022/search" target="_blank">
-<fieldset>
-<input class="entrada" type="search" name="q" placeholder="Término a buscar" autofocus required><br>
-<b>Tipos de archivos:</b><br> 
-    <select class="select" name="as_filetype">
-	   <option label="Todos" value="" selected="selected"></option>
-       <option value="pdf">acrobat</option>
-       <option value="xls">Excel</option>
-       <option value="doc">Word</option>
-    </select><br>
-<b>Sitios web:</b><br> 
-    <select class="select" name="as_sitesearch">
-	   <option label="Todos" value="" selected="selected"></option>
-       <option value="norfipc.com">NorfiPC.com</option>
-       <option value="es.wikipedia.org/">Wikipedia</option>
-       <option value="github.com/anprofor/cf2022/tree/gh-pages/dipcf2022">Github</option>
-    </select><br>
-<input type="hidden" name="num" value="50"> 
-<input class="botb" type="submit" value="Buscar">  
-</fieldset>  
+<form action="https://github.com/anprofor/cf2022/tree/gh-pages/dipcf2022" method="post" target="_blank">
+  <p>
+    Busca entre nuestros modelos: <input type="search" name="busquedamodelos" list="listamodelos">
+    <input type="submit" value="Buscar">
+  </p>
 </form>
+
+<datalist id="listamodelos">
+
+  <option value="1">
+  <option value="2">
+  <option value="3">
+  <option value="4">
+
+</datalist>
   
   
   
