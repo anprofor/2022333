@@ -90,14 +90,16 @@
   </div>
                 
 
-<form action="https://github.com/anprofor/cf2022/tree/gh-pages/dipcf2022" method="post" target="_blank">
+<form action="https://github.com/anprofor/cf2022/tree/gh-pages/dipcf2022" method="get" target="framename">
   <p>
-    Busca entre nuestros modelos: <input type="search" name="busquedamodelos" list="listamodelos">
+    Ingrese su código: <input type="search" name="busquedacod" list="listacod">
     <input type="submit" value="Buscar">
+    <input type="hidden" name="as_filetype" value="PDF">
+
   </p>
 </form>
 
-<datalist id="listamodelos">
+<datalist id="listacod">
 
   <option value="1">
   <option value="2">
